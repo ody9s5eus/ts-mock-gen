@@ -1,73 +1,60 @@
-# React + TypeScript + Vite
+# ✨ TS Mock Gen ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **The Vibe Check for your Data.** 💅
+> Instantly generate mock JSON data from your TypeScript interfaces. No cap. 🚫🧢
 
-Currently, two official plugins are available:
+![TS Mock Gen Demo](https://img.shields.io/badge/Status-Vibing-pink?style=for-the-badge&logo=typescript) ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧐 What's the Tea?
 
-## React Compiler
+Tired of manually writing JSON mock data? Exhausting. 😩
+**TS Mock Gen** takes your TypeScript interfaces and *poof* ✨ turns them into realistic JSON data using [Faker.js](https://fakerjs.dev/).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+It's giving **Productivity**. It's giving **Efficiency**. It's giving **Developer Experience**. 🚀
 
-## Expanding the ESLint configuration
+## 🔥 Features that Slap
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+*   **TypeScript Parsing:** We read your types so you don't have to explain yourself. 🧠
+*   **Smart Mapping:** We guess what you need. `email` -> Real Email. `avatar` -> Real Image. We got you. 🤝
+*   **Custom Rules:** Want a specific format? Override our logic. You're the main character. 👑
+*   **Faker.js Powered:** The GOAT of mock data generation. 🐐
+*   **Real-time Preview:** See the results as you type. Instant gratification. ⚡
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 How to Use
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+1.  **Paste your TS Interface** on the left.
+2.  (Optional) **Tweak the Rules** in the middle if you're feeling picky.
+3.  **Grab your JSON** from the right. Copy it, download it, do whatever. 📦
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠️ The Stack
+
+Built with the freshest ingredients:
+
+*   ⚛️ **React** - Cause we have taste.
+*   ⚡ **Vite** - Fast AF.
+*   📘 **TypeScript** - Type safety is self-care.
+*   🎨 **TailwindCSS** - Looking good is half the battle.
+*   🎭 **Faker.js** - The real MVP.
+
+## 💻 Local Dev
+
+Wanna contribute? Bet.
+
+```bash
+# Clone the repo
+git clone https://github.com/ody9s5eus/ts-mock-gen.git
+
+# Install dependencies (pnpm gang)
+pnpm install
+
+# Start the party
+pnpm dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🤝 Contributing
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Found a bug? Have a feature request? Slide into the issues. PRs are welcome. Don't be shy.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📄 License
+
+MIT. Use it freely, bestie. 💖
