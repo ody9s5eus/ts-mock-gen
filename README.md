@@ -3,7 +3,7 @@
 > **The Vibe Check for your Data.** 💅
 > Instantly generate mock JSON data from your TypeScript interfaces. No cap. 🚫🧢
 
-![TS Mock Gen Demo](https://img.shields.io/badge/Status-Vibing-pink?style=for-the-badge&logo=typescript) ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![TS Mock Gen Demo](https://img.shields.io/badge/Status-Vibing-pink?style=for-the-badge&logo=typescript) ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge) [![Demo](https://img.shields.io/badge/Demo-Try_It_Out-success?style=for-the-badge)](https://ody9s5eus.github.io/ts-mock-gen/)
 
 ## 🧐 What's the Tea?
 
